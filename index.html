@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      Tailwind Starter Template - Landing Page Template: Tailwind Toolbox
+      Vibe Coding Lab | AI 作為思考放大器的個人陪跑服務
     </title>
-    <meta name="description" content="Simple landind page" />
+    <meta
+      name="description"
+      content="和 Think For AI 一起，用 Vibe Coding、AI 工具與知識管理把想法打磨成可複製的流程。"
+    />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
@@ -34,7 +37,7 @@
                 d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
               />
             </svg>
-            LANDING
+            Vibe Coding Lab
           </a>
         </div>
         <div class="block lg:hidden pr-4">
@@ -48,21 +51,22 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#services">服務</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#process">方法</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#blog">筆記</a>
             </li>
           </ul>
-          <button
+          <a
             id="navAction"
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            href="#contact"
+            class="mx-auto lg:mx-0 text-center hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
-            Action
-          </button>
+            預約對談
+          </a>
         </div>
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -72,16 +76,21 @@
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p class="uppercase tracking-loose w-full">What business are you?</p>
+          <p class="uppercase tracking-loose w-full">Think For AI | Vibe Coding Lab</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Main Hero Message to sell yourself!
+            把 AI 變成你的思考放大器，而不是答案機器
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just right!
+            我陪你拆解問題、建立第二大腦，把靈感打磨成可複製的工作流。一次對談，帶走一份專屬的 AI 實戰計劃。
           </p>
-          <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Subscribe
-          </button>
+          <div class="flex flex-col sm:flex-row w-full gap-4">
+            <a class="mx-auto lg:mx-0 text-center hover:underline bg-white text-gray-800 font-bold rounded-full my-2 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="#services">
+              了解服務
+            </a>
+            <a class="mx-auto lg:mx-0 text-center hover:underline border-2 border-white text-white font-bold rounded-full my-2 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="#contact">
+              預約對談
+            </a>
+          </div>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
@@ -108,10 +117,10 @@
         </g>
       </svg>
     </div>
-    <section class="bg-white border-b py-8">
+    <section id="services" class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Title
+          你會得到什麼？
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -119,16 +128,10 @@
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Lorem ipsum dolor sit amet
+              1:1 問題澄清與路徑設計
             </h3>
             <p class="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              <br />
-              <br />
-
-              Images from:
-
-              <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+              從你的情境出發：釐清真正的瓶頸，定義明確的任務腳本與評估標準，避免 AI 亂飛。
             </p>
           </div>
           <div class="w-full sm:w-1/2 p-6">
@@ -412,172 +415,191 @@
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Lorem ipsum dolor sit amet
+                知識管理 + Workflow 設計
               </h3>
               <p class="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                <br />
-                <br />
-                Images from:
-
-                <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+                共建你的第二大腦：將散落的想法、文件、AI Prompt 收納成可迭代的知識庫，讓每次輸出都能被複用。
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-white border-b py-8">
+    <section id="blog" class="bg-gray-50 py-12">
+      <div class="container mx-auto max-w-5xl px-6">
+        <div class="flex flex-col lg:flex-row items-start gap-10">
+          <div class="lg:w-2/3">
+            <p class="uppercase tracking-wide text-sm text-pink-600 font-bold mb-2">持續更新的筆記</p>
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">想看我如何實踐？</h2>
+            <p class="text-gray-700 text-lg leading-relaxed mb-6">
+              我在部落格記錄自己如何用 Vibe Coding 拆解問題、迭代 Prompt、建立知識管理流程。這裡沒有標準答案，只有不斷修正問題本身的思考軌跡。
+            </p>
+            <a class="inline-block bg-pink-600 text-white font-bold rounded-full py-3 px-6 shadow-lg hover:shadow-xl transform transition hover:scale-105 duration-300 ease-in-out" href="https://thinkforai25.github.io/vibecoding-blog/" target="_blank" rel="noreferrer">
+              前往閱讀我的筆記
+            </a>
+          </div>
+          <div class="lg:w-1/3 bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">近期主題</h3>
+            <ul class="space-y-3 text-gray-700">
+              <li>• 如何讓 AI 當第二大腦，而非取代思考</li>
+              <li>• Vibe Coding：把任務拆成可測試的步驟</li>
+              <li>• Prompt 範例與知識庫的管理方法</li>
+              <li>• 反覆迭代問題本身的工作日誌</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="process" class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Title
+          我們會怎麼一起工作
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
+            <div class="flex flex-wrap">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6 uppercase tracking-wide">
+                Step 1
               </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                診斷你的需求與瓶頸
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                30 分鐘對話，盤點目標、現有流程與工具，對準「真正要解的問題」，而不是追逐最新模型。
               </p>
-            </a>
+            </div>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-start">
               <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
+                預約時間
               </button>
             </div>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
+            <div class="flex flex-wrap">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6 uppercase tracking-wide">
+                Step 2
               </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                共創工作流與 Prompt 套件
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                以 Vibe Coding 思維拆解任務，建立 SOP、範例與檢查清單，讓 AI 成為可重複的團隊資產。
               </p>
-            </a>
+            </div>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-center">
               <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
+                查看範例
               </button>
             </div>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
+            <div class="flex flex-wrap">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6 uppercase tracking-wide">
+                Step 3
               </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                迭代與知識沉澱
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                針對你的案例回顧成果，整理到個人筆記與團隊知識庫，形成「可交接」的 AI Playbook。
               </p>
-            </a>
+            </div>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-end">
               <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
+                開始共創
               </button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-gray-100 py-8">
+    <section id="pricing" class="bg-gray-100 py-8">
       <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Pricing
+          陪跑方案
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+        <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4 gap-6">
+          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4 shadow">
             <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
               <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Free
+                啟動會談
               </div>
               <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
+                <li class="border-b py-4">30 分鐘線上診斷</li>
+                <li class="border-b py-4">明確化你的目標與評估指標</li>
+                <li class="border-b py-4">快速設計 1 個 AI 工作流</li>
+                <li class="border-b py-4">可帶走的行動清單</li>
               </ul>
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £0
-                <span class="text-base">for one user</span>
+                免費預約
               </div>
               <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
+                <a class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="#contact">
+                  預約
+                </a>
               </div>
             </div>
           </div>
           <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
+              <div class="w-full p-8 text-3xl font-bold text-center">共創衝刺</div>
               <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
               <ul class="w-full text-center text-base font-bold">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
+                <li class="border-b py-4">2 週內 2 次 60 分鐘工作坊</li>
+                <li class="border-b py-4">專屬 Prompt 套件與範例</li>
+                <li class="border-b py-4">知識管理架構與 SOP 設計</li>
+                <li class="border-b py-4">結案回顧 + 14 天異步答疑</li>
               </ul>
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div class="w-full pt-6 text-4xl font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
+                NT$ 8,800
               </div>
               <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
+                <a class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="#contact">
+                  立即報名
+                </a>
               </div>
             </div>
           </div>
-          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4 shadow">
             <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
               <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Pro
+                內部顧問
               </div>
               <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
+                <li class="border-b py-4">4 週陪跑，與團隊共建 AI Playbook</li>
+                <li class="border-b py-4">小組工作坊 + 非同步審稿</li>
+                <li class="border-b py-4">可交接的知識庫與模板</li>
+                <li class="border-b py-4">量身客製的評估儀表板</li>
               </ul>
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
+                來信討論
               </div>
               <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
+                <a class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="#contact">
+                  聯繫我
+                </a>
               </div>
             </div>
           </div>
@@ -606,19 +628,19 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 mb-12">
+    <section id="contact" class="container mx-auto text-center py-6 mb-12">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        Call to Action
+        想把 AI 變成你的思考夥伴嗎？
       </h2>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
-        Main Hero Message to sell yourself!
+        留下需求或情境，我會回覆一份專屬行動建議。
       </h3>
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Action!
-      </button>
+      <a class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="mailto:thinkforai25@gmail.com?subject=Vibe%20Coding%20%E9%99%AA%E8%B7%91%E9%A0%90%E7%B4%84&body=%E4%BD%A0%E7%9A%84%E7%8B%80%E6%B3%81%E3%80%81%E7%9B%AE%E6%A8%99%E3%80%81%E6%83%B3%E8%A6%81%E7%A5%9D%E8%A8%97%E7%9A%84%E7%A8%AE%E9%A1%9E">
+        寄信給我
+      </a>
     </section>
     <!--Footer-->
     <footer class="bg-white">
@@ -634,59 +656,59 @@
                   d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
                 />
               </svg>
-              LANDING
+              Vibe Coding Lab
             </a>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Links</p>
+            <p class="uppercase text-gray-500 md:mb-6">導航</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+                <a href="#services" class="no-underline hover:underline text-gray-800 hover:text-pink-500">服務</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+                <a href="#process" class="no-underline hover:underline text-gray-800 hover:text-pink-500">方法</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+                <a href="#blog" class="no-underline hover:underline text-gray-800 hover:text-pink-500">筆記</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+            <p class="uppercase text-gray-500 md:mb-6">工具</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                <a href="https://thinkforai25.github.io/vibecoding-blog/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Vibe Coding Blog</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                <a href="mailto:thinkforai25@gmail.com" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Email</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Social</p>
+            <p class="uppercase text-gray-500 md:mb-6">社群</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="https://www.linkedin.com" class="no-underline hover:underline text-gray-800 hover:text-pink-500">LinkedIn</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                <a href="https://x.com" class="no-underline hover:underline text-gray-800 hover:text-pink-500">X (Twitter)</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                <a href="#contact" class="no-underline hover:underline text-gray-800 hover:text-pink-500">預約對談</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Company</p>
+            <p class="uppercase text-gray-500 md:mb-6">關於</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+                <a href="#services" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Think For AI</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+                <a href="#process" class="no-underline hover:underline text-gray-800 hover:text-pink-500">流程</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                <a href="#contact" class="no-underline hover:underline text-gray-800 hover:text-pink-500">聯繫</a>
               </li>
             </ul>
           </div>
